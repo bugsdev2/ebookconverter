@@ -20,7 +20,21 @@ form {
     /* border: 2px solid red; */
 }
 
+#submit-button {
+    width: min(5rem);
+    height: min(1.5rem);
+}
+
 ul li {
     list-style-type: none;
     padding: 10px;
+    border: 1px gray solid;
+    margin: 5px;
+}
+
+#convert {
+    margin: 0 auto;
+    display: none;
+    width: min(5rem);
+    height: min(1.5rem);
 }
